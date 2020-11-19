@@ -1,0 +1,82 @@
+.TeamInfo {
+    width: 100%;
+}
+
+.TeamInfo__titulo {
+    width: 100%;
+    text-align: center;
+    color: #9f9f9f;
+    font-weight: 400;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+.TeamInfo__box {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+.lbl {
+    color: black;
+    display: block;
+    font-weight: 800;
+}
+
+.input-group:focus-within label {
+    color: #db668b;
+}
+
+.input-group:focus-within input, .input-group:focus-within textarea {
+    border: 2px solid #db668b;
+}
+
+.input-group, .radio-group, .tag-group {
+    width: 100%;
+    padding: 10px;
+}
+
+.teamTextArea {
+    resize: none;
+}
+
+.teamInput, .teamTextArea {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #9f9f9f;
+    padding: 5px;
+}
+input, textarea{
+    box-sizing: border-box !important;
+}
+
+.cNrjqJ {
+    position: initial !important;
+    -webkit-transform: translate(0) !important;
+    -ms-transform: translate(0) !important;
+    transform: translate(0) !important;
+    width: 100% !important;
+    background-color: white !important;
+    border-radius: 5px !important;
+    border: 1px solid #9f9f9f !important;
+
+}
+
+.cMWoBu{
+    background-color: #c50341 !important;
+    border-radius: 15px !important;
+    padding-left: 10px !important;
+    font-size: 14px !important;
+}
+
+.fEDVdc{
+    background-color: white !important;
+}
+
+.invalid-label{
+    color: red !important;
+}
+
+.invalid-input{
+    border: 3px solid red !important;
+}

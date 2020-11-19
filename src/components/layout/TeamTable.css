@@ -1,0 +1,92 @@
+.TeamTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.TeamTable tbody tr:hover{
+    background-color: #f7eef7;
+    border: none;
+}
+
+.TeamTable tbody tr:hover{
+    background-color: #f7eef7;
+    
+}
+tr:hover td {
+    color: #c877a5;
+}
+
+tr td:first-child { border-top-left-radius: 10px; }
+tr td:last-child { border-top-right-radius: 10px; }
+tr td:first-child { border-bottom-left-radius: 10px; }
+tr td:last-child { border-bottom-right-radius: 10px; }
+
+table, thead, tbody, tr {
+    width: 100%;
+}
+
+.TeamTable th{
+    cursor: pointer;
+}
+
+td{
+    border: none;
+}
+
+th, td {
+    vertical-align: top;
+    color: black;
+    font-weight: normal;
+    font-size: 15px;
+    
+}
+
+th:first-child, td:first-child {
+    border-left: 0;
+}
+
+/* stretch middle column (of three columns) */
+
+th:nth-child(2), td:nth-child(2) {
+    width: 75%;
+}
+
+.TeamTable th, .TeamTable td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #f1efef;
+}
+
+.TeamTable thead th:first-child {
+    border-right: 1px solid #f1efef;
+}
+
+.gbjtWJ{
+    display: none !important;
+}
+
+.iQRTBA:hover{
+    color: #c877a5 !important;
+    background-color: #f7eef7 !important;
+}
+
+.btnRow{
+    font-size: 12px !important;
+    color: #c877a5 !important;
+    cursor: pointer;
+}
+
+.hJzIou, .bZcmwf{
+    width: 5% !important;
+    max-width: 5% !important;
+    min-width: 5%  !important;
+
+}
+
+.ddahQf{
+    overflow: hidden !important;
+}
+
+#changePag{
+    display: none;
+}

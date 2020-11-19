@@ -1,0 +1,19 @@
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #cacaca;
+}
+
+.footer__content{
+    width: 100%;
+}
+
+.footer__content_text{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    font-weight: 200;
+}

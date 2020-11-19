@@ -1,0 +1,33 @@
+.SquadConfig {
+    width: 100%;
+}
+
+.SquadConfig__titulo {
+    width: 100%;
+    text-align: center;
+    color: #9f9f9f;
+    font-weight: 400;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+.input-group-2{
+    width: 100%;
+    
+}
+
+.input-group-2:focus-within label {
+    color: #db668b;
+}
+
+.input-group-2:focus-within input, .input-group-2:focus-within textarea {
+    border: 2px solid #db668b;
+}
+
+.txtFiltro{
+    box-sizing:border-box;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #9f9f9f;
+    padding: 5px;
+}

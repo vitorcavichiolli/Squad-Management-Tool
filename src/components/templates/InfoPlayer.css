@@ -1,0 +1,30 @@
+.playerInfo_box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.infoGroup{
+    width: 80%;
+}
+
+.infoGroup:nth-child(even){
+    width: 20%;
+}
+
+.lblInfo, .txtInfo{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+.lblInfo{
+    margin-right: 5px;
+    font-weight: 500;
+
+}
+
+.txtInfo{
+    color: #d96d90;
+}

@@ -1,0 +1,66 @@
+.PlayerStatsCard{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    background-image: linear-gradient(to bottom,#b53c7c, #6b3087);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.PlayerStatsCard__content{
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.PlayerStatsCard__content:first-child{
+    border-right: 0.5px solid white;
+}
+
+.PlayerStatsCard__title{
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.PlayerStatsCard__box{
+    width: 100%;
+    position: relative;
+
+}
+
+.PlayerStatsCard__player{
+    width: 100px;
+    margin: 0 auto;
+    border-radius: 100px;
+    background-color: white;
+    text-align: center;
+    padding: 40px 0;
+    margin-bottom: 30px;
+}
+
+.PlayerStatsCard__per{
+    position: absolute;
+    top: calc((100% - 95px)/2);
+    right: calc((100% - 170px) / 2);
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.PlayerStatsCard__circ{
+    width: 50px;
+    border-radius: 50px;
+    border: 1px solid white;
+    height: 50px;
+    position: absolute;
+    top: calc((100% - 50px) / 2);
+    right: -25px;
+}
+
+.PlayerStatsCard .PlayerStatsCard__content:last-child .PlayerStatsCard__circ{
+    display: none !important;
+}
